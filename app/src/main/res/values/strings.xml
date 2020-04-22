@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">buyNsell</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="log_out">Log Out</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email Address</string>
+    <string name="google_sign_in">Sign in with Google</string>
+    <string name="exit">Exit</string>
+    <string name="sell_item">+ Sell New Item</string>
+    <string name="my_account">My Account</string>
+    <string name="my_ads">My Ads</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_add">Image Add</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="click_to_add_category">Click to add Category</string>
+    <string name="category">Category</string>
+    <string name="submit">Submit</string>
+    <string name="price">Price</string>
+    <string name="add_a_public_comment">Add a public comment..</string>
+    <string name="comment">Comment</string>
+    <string name="price_in_rs">Price(in Rs.)</string>
+    <string name="search_by_categories">Search by Categories:</string>
+    <string name="all">All</string>
+
+    <string-array name="categories">
+        <item>Properties</item>
+        <item>Cars</item>
+        <item>Furniture</item>
+        <item>Electronics and appliances</item>
+        <item>Mobiles</item>
+        <item>Bikes</item>
+        <item>Books,Sports and Hobbies</item>
+        <item>Fashion</item>
+    </string-array>
+
+    <string-array name="categories_button">
+        <item>All</item>
+        <item>Properties</item>
+        <item>Cars</item>
+        <item>Furniture</item>
+        <item>Electronics and appliances</item>
+        <item>Mobiles</item>
+        <item>Bikes</item>
+        <item>Books,Sports and Hobbies</item>
+        <item>Fashion</item>
+    </string-array>
+</resources>

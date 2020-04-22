@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "779173312682",
+    "firebase_url": "https://quickr-app.firebaseio.com",
+    "project_id": "quickr-app",
+    "storage_bucket": "quickr-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779173312682:android:139a7810411916e21b38d3",
+        "android_client_info": {
+          "package_name": "com.example.buysellapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779173312682-lb4u0ckegtccqsv002dsdkftukckj33n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buysellapp",
+            "certificate_hash": "8ef80b38c8d46dc3093ae7e6bf9ab54f5709983f"
+          }
+        },
+        {
+          "client_id": "779173312682-o5i1b7iejl7n1d41tujkj10pp9p93i10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsV-UKlxbUCMJMpaA--jdb3jE5uGczJmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779173312682-o5i1b7iejl7n1d41tujkj10pp9p93i10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

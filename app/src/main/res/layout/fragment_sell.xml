@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.my_ads.SellFragment">
+
+
+
+    <Button
+        android:layout_width="30dp"
+        android:id="@+id/sell_back_button"
+        android:layout_height="30dp"
+        android:stateListAnimator="@null"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/ic_arrow_back_black_24dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:paddingBottom="40dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/item_image"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_add"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/edit_text_sell_frag"
+                android:contentDescription="@string/image_add" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_sell_frag"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:id="@+id/title"
+                android:inputType="text"
+                android:hint="@string/title"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/category"
+                android:background="@drawable/edit_text_sell_frag"
+                android:layout_marginTop="20dp"
+                android:text="@string/category"
+                android:textColor="@color/Black"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/price"
+                android:background="@drawable/edit_text_sell_frag"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:inputType="number"
+                android:hint="@string/price_in_rs"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/description"
+                android:background="@drawable/edit_text_sell_frag"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/Black"
+                android:textSize="20sp"
+                android:hint="@string/description"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="10dp"
+                android:inputType="text"
+                android:paddingBottom="10dp"
+                />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_background"
+                android:textColor="@drawable/button_textcolor"
+                android:layout_gravity="center"
+                android:text="@string/submit"
+                android:id="@+id/submit_button"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
